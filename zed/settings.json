@@ -30,15 +30,16 @@
     "dark": "One Dark"
   },
   "agent": {
-  	"dock": "right",
+    "dock": "right",
     "default_profile": "write",
     "default_model": {
       "provider": "openrouter",
-      "model": "z-ai/glm-5.3-flash"
+      "model": "openai/gpt-6-luna",
+      "enable_thinking": true
     },
     "commit_message_model": {
       "provider": "openrouter",
-      "model": "z-ai/glm-5.3-flash"
+      "model": "google/gemma-4-26b-a4b-it"
     }
   },
   "language_models": {
